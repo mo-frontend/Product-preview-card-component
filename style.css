@@ -107,6 +107,11 @@ body {
     white-space: nowrap;
     width: 1px;
 }
+.button {
+    cursor: pointer;
+    text-decoration: none;
+    padding: 0.5em 1.5em;
+}
 .Product {
     --content-padding: 1.5rem;
     --content-spacing: 1rem;
