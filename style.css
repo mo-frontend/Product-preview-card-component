@@ -35,7 +35,7 @@
   4. Improve text rendering
 */
 body {
-    line-height: 1.5;
+    line-height: 1.7;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -73,6 +73,9 @@ h5,
 h6 {
     overflow-wrap: break-word;
 } 
+h1, h2, h3 {
+    line-height: 1;
+}
 
 /*genearl styling*/
 body {
@@ -92,6 +95,7 @@ body {
     display: flex;
     gap: 1rem;
     flex-wrap: wrap;
+    align-items: center;
 }
 .Product {
     --content-padding: 1.5rem;
@@ -107,10 +111,16 @@ body {
 }
 .product__caregory {
     letter-spacing: 5px;
+    font-size: 0.8125rem;
     text-transform: uppercase;
 }
 .Product__title {
     font-size: 2rem;
     font-family: var(--ff-accent);
     color: var(--clr-neutral-900);
+}
+.Product__price {
+    font-size: 2rem;
+    font-family: var(--ff-accent);
+    color: var(--clr-primary-400);
 }
