@@ -13,11 +13,6 @@
     --ff-base: 'Montserrat', sans-serif;
 }
 
-
-
-
-
-
 /* /*
   1. Use a more-intuitive box-sizing model.
 */
@@ -77,5 +72,29 @@ h4,
 h5,
 h6 {
     overflow-wrap: break-word;
-}
+} 
 
+/*genearl styling*/
+body {
+    font-family: var(--ff-base);
+    font-weight: var(--fw-reqular);
+    font-size: 0.875rem;
+    color: var(--clr-neutral-400);
+    background-color: var(--clr-secondary-200);
+    display: grid;
+    min-height: 100vh;
+    place-content: center;
+    margin: 1rem;
+
+
+}
+.flex-group {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.Product {
+    background-color: var(--clr-neutral-100);
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
