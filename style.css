@@ -94,7 +94,23 @@ body {
     flex-wrap: wrap;
 }
 .Product {
+    --content-padding: 1.5rem;
+    --content-spacing: 1rem;
     background-color: var(--clr-neutral-100);
     border-radius: 0.5rem;
     overflow: hidden;
+}
+.product__content {
+    display: grid;
+    gap: var(--content-spacing);
+    padding: var(--content-padding);
+}
+.product__caregory {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.Product__title {
+    font-size: 2rem;
+    font-family: var(--ff-accent);
+    color: var(--clr-neutral-900);
 }
