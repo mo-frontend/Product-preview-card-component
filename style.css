@@ -169,3 +169,6 @@ body {
     font-family: var(--ff-accent);
     color: var(--clr-primary-400);
 }
+.attribution {
+    margin-top: 10px;
+}
