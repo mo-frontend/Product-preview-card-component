@@ -141,9 +141,11 @@ body {
     border-radius: 0.5rem;
     overflow: hidden;
     display: grid;
+    max-width: 600px;
 }
 @media (min-width: 600px) {
     .Product {
+            --content-padding: 2rem;
         grid-template-columns: 1fr 1fr;
     }
 }
